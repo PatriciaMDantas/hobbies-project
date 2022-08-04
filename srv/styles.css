@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #d3cedf;
+  --branding-color: #f7f7fa;
   --heading-font-family: "Quicksand", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -8,26 +8,26 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--heading-font-family);
 }
 h1 {
   font-size: 96px;
 }
 
 .hero {
-  background: #d3cedf;
+  background: var(--branding-color);
   text-align: center;
   padding: 160px 20px;
 }
 
 .hero p {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 36px;
   font-weight: bold;
   margin: 0px;
 }
 .hero h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: normal;
   font-size: 24px;
 }
