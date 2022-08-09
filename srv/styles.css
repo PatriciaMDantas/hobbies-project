@@ -46,3 +46,27 @@ h1 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.about-seccion {
+  text-align: center;
+  padding: 160px 20px;
+}
+.about-seccion-content {
+  margin: 30px;
+}
+.about-seccion h1 {
+  font-size: 64px;
+  line-height: 60px;
+  margin-top: 40px;
+}
+
+.about-seccion p {
+  font-size: 30px;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 40px;
+}
+.about-seccion img {
+  margin-top: 40px;
+  border-radius: 50px;
+  width: 600px;
+}
