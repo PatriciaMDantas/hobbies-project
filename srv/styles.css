@@ -122,13 +122,29 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   hi {
     font-size: 44px;
-    line-height: 56px;
+    line-height: 1.5;
   }
   h2 {
     font-size: 44px;
   }
+  h3 {
+    font-size: 26px;
+  }
+  h7 {
+    padding: 0;
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
   hero {
     padding: 80px 20px;
+  }
+  img {
+    text-align: center;
+    padding: 0;
   }
 }
 
