@@ -159,6 +159,7 @@ footer .social-links a:hover {
 @media (min-width: 567px) {
   .container {
     max-width: 540px;
+    padding: 0px;
   }
 }
 
