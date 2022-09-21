@@ -125,7 +125,7 @@ footer .social-links a:hover {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1;
   }
   .contact {
@@ -153,13 +153,6 @@ footer .social-links a:hover {
   img {
     text-align: center;
     padding: 0;
-  }
-}
-
-@media (min-width: 567px) {
-  .container {
-    max-width: 540px;
-    padding: 0px;
   }
 }
 
